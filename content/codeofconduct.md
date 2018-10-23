@@ -1,10 +1,10 @@
 +++
-title = "Contact"
-keywords = ["contact","get in touch","email","contact form"]
-id = "contact"
+title = "Code of Conduct"
+description = "Behaviour at the conference"
+keywords = ["code of conduct","COC","behaviour","harassment"]
 +++
 
-# We are here to help you
+# Code of Conduct for useR
 
 Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
 

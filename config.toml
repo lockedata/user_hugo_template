@@ -54,14 +54,14 @@ paginate = 10
 
 [[menu.main]]
     name = "Code of Conduct"
-    url  = "/coc/"
+    url  = "/codeofconduct/"
     weight = 8
 
 [[menu.main]]
     name = "About"
     url  = "/about/"
     weight = 9
-    
+
 # Top bar social links menu
 
 [[menu.topbar]]
