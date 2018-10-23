@@ -22,21 +22,46 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
+    name = "Program"
+    url  = "/program/"
+    weight = 2
+
+[[menu.main]]
+    name = "Participation"
+    url  = "/participation/"
+    weight = 3
+
+[[menu.main]]
+    name = "Venue"
+    url  = "/venue/"
+    weight = 4
+
+[[menu.main]]
     name = "Blog"
     url  = "/blog/"
-    weight = 2
+    weight = 5
 
 [[menu.main]]
     name = "FAQ"
     identifier = "faq"
     url  = "/faq/"
-    weight = 3
+    weight = 6
 
 [[menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 4
+    weight = 7
 
+[[menu.main]]
+    name = "Code of Conduct"
+    url  = "/coc/"
+    weight = 8
+
+[[menu.main]]
+    name = "About"
+    url  = "/about/"
+    weight = 9
+    
 # Top bar social links menu
 
 [[menu.topbar]]
