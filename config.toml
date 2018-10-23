@@ -152,6 +152,7 @@ paginate = 10
     categories = true
     tags = true
     search = true
+    contact_map = false
 
 [params.carousel]
     enable = true
