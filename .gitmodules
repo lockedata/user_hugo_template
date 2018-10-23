@@ -1,3 +1,6 @@
 [submodule "themes/hugo-universal-theme"]
 	path = themes/hugo-universal-theme
 	url = https://github.com/devcows/hugo-universal-theme
+[submodule "themes/hugo-user-theme"]
+	path = themes/hugo-user-theme
+	url = https://github.com/lockedata/hugo-user-theme

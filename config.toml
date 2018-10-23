@@ -1,6 +1,6 @@
 baseurl = "https://example.org"
 title = "Universal"
-theme = "hugo-universal-theme"
+theme = ["hugo-user-theme","hugo-universal-theme"]
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
@@ -181,14 +181,17 @@ paginate = 10
     link_url = "#"
     link_text = "Check other homepages"
 
-[params.clients]
+[params.sponsors]
     enable = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
-    title = "Our Clients"
-    subtitle = ""
-
+    title = "Our Sponsors"
+    tier1 = "Gold"
+    tier2 = "Silver"
+    tier2scale ="80%"
+    tier3 = "Bronze"
+    tier3scale ="30%"
 [params.recent_posts]
     enable = true
     title = "From our blog"
