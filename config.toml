@@ -15,7 +15,7 @@ paginate = 10
 [menu]
 
 # Main menu
-
+# Comment out sections to prevent them appearing on the nav bar
 [[menu.main]]
     name = "Home"
     url  = "/"
@@ -37,15 +37,15 @@ paginate = 10
     weight = 4
 
 [[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
-    weight = 5
-
+   name = "Blog"
+   url  = "/blog/"
+   weight = 5
+   
 [[menu.main]]
-    name = "FAQ"
-    identifier = "faq"
-    url  = "/faq/"
-    weight = 6
+   name = "FAQ"
+   identifier = "faq"
+   url  = "/faq/"
+   weight = 6
 
 [[menu.main]]
     name = "Contact"
@@ -193,7 +193,13 @@ paginate = 10
     tier2scale ="80%"
     tier3 = "Bronze"
     tier3scale ="30%"
+
 [params.recent_posts]
     enable = true
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+
+[params.participation]
+    registration_link = "google.com"
+    registration_text = "google.com"
+    cfp_link = "google.com"
