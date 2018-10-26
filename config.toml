@@ -207,3 +207,246 @@ paginate = 10
     cfp_enable = true
     cfp_link = "http://www.callforpapers.com"
     cfp_text = "Submit your paper"
+
+[params.organising]
+    enable = true
+    # Possibility to center items
+    center = true
+    title = "Team"
+    subtitle = "Organising Commitee"
+    description = "Local team organising the event"
+
+    # All organising member's pictures are stored under 'static/img/organising'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.organising.members]]
+      img = "faceholder.png"
+      name = "Organiser Name 1"
+      position = "Organiser Position 1"
+      reportsTo = "Some Person"
+      livesIn = "[Munich, Germany](#some-maps-url)"
+      scope = [
+        "Role 1 for [thing 1](#)",
+        "Role 2 for [thing 2](#)",
+        "Role 3 for [thing 3](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """I do things,
+      and stuff"""
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.organising.members]]
+      img = "faceholder.png"
+      name = "Organiser Name 2"
+      position = "Organiser Position 2"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.organising.members]]
+      img = "faceholder.png"
+      name = "Organiser Name 3"
+      position = "Organiser Position 3"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+    
+    [[params.organising.members]]
+      img = "faceholder.png"
+      name = "Organiser Name 4"
+      position = "Organiser Position 4"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.organising.members]]
+      img = "faceholder.png"
+      name = "Organiser Name 5"
+      position = "Organiser Position 5"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.organising.members]]
+      img = "faceholder.png"
+      name = "Organiser Name 6"
+      position = "Organiser Position 6"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+[params.programming]
+    enable = false
+    # Possibility to center items
+    center = true
+    title = ""
+    subtitle = "Programming Comitee"
+    description = ""
+
+    # All programming member's pictures are stored under 'static/img/programming'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.programming.members]]
+      img = "faceholder.png"
+      name = "Programmer Name 1"
+      position = "Programmer Position 1"
+      reportsTo = "Some Person"
+      livesIn = "[Munich, Germany](#some-maps-url)"
+      scope = [
+        "Role 1 for [thing 1](#)",
+        "Role 2 for [thing 2](#)",
+        "Role 3 for [thing 3](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """I do things,
+      and stuff"""
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.programming.members]]
+      img = "faceholder.png"
+      name = "Programmer Name 2"
+      position = "Programmer Position 2"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.programming.members]]
+      img = "faceholder.png"
+      name = "Programmer Name 3"
+      position = "Programmer Position 3"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.programming.members]]
+      img = "faceholder.png"
+      name = "Programmer Name 4"
+      position = "Programmer Position 4"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.programming.members]]
+      img = "faceholder.png"
+      name = "Programmer Name 5"
+      position = "Programmer Position 5"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.programming.members]]
+      img = "faceholder.png"
+      name = "Programmer Name 6"
+      position = "Programmer Position 6"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+[params.foundation]
+    enable = true
+    # Possibility to center items
+    center = true
+    title = ""
+    subtitle = "R Foundation"
+    description = ""
+
+    # All programming member's pictures are stored under 'static/img/programming'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.foundation.members]]
+      img = "faceholder.png"
+      name = "Foundation Name 1"
+      position = "Foundation Position 1"
+      reportsTo = "Some Person"
+      livesIn = "[Munich, Germany](#some-maps-url)"
+      scope = [
+        "Role 1 for [thing 1](#)",
+        "Role 2 for [thing 2](#)",
+        "Role 3 for [thing 3](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """I do things,
+      and stuff"""
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.foundation.members]]
+      img = "faceholder.png"
+      name = "Foundation Name 2"
+      position = "Foundation Position 2"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.foundation.members]]
+      img = "faceholder.png"
+      name = "Foundation Name 3"
+      position = "Foundation Position 3"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.foundation.members]]
+      img = "faceholder.png"
+      name = "Foundation Name 4"
+      position = "Foundation Position 4"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.foundation.members]]
+      img = "faceholder.png"
+      name = "Foundation Name 5"
+      position = "Foundation Position 5"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.foundation.members]]
+      img = "faceholder.png"
+      name = "Foundation Name 6"
+      position = "Foundation Position 6"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
