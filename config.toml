@@ -450,3 +450,8 @@ paginate = 10
         ["fa-github", "#"],
         ["fa-linkedin", "#"]
       ]
+
+[params.dates]
+    enable = true
+    title = "Title"
+    subtitle="Sub"
