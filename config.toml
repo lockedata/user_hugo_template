@@ -172,7 +172,7 @@ paginate = 10
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
-    enable = true
+    enable = false
     icon = "fa fa-file-code-o"
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
@@ -181,10 +181,12 @@ paginate = 10
 
 [params.twitter]
     enable = true
+    bg = false
     feed_url = "https://twitter.com/user2018_conf"
 
 [params.sponsors]
     enable = true
+    bg = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
@@ -210,6 +212,7 @@ paginate = 10
 
 [params.organising]
     enable = true
+    bg = false
     # Possibility to center items
     center = true
     title = "Team"
@@ -291,6 +294,7 @@ paginate = 10
 
 [params.programming]
     enable = true
+    bg = false
     # Possibility to center items
     center = true
     title = ""
@@ -372,6 +376,7 @@ paginate = 10
 
 [params.foundation]
     enable = true
+    bg = true
     # Possibility to center items
     center = true
     title = ""
@@ -453,5 +458,6 @@ paginate = 10
 
 [params.dates]
     enable = true
+    bg = false
     title = "Title"
     subtitle="Sub"
