@@ -137,7 +137,7 @@ paginate = 10
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = true
+    enable = false
     text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
@@ -164,7 +164,7 @@ paginate = 10
     # For more informtion take a look at the README.
 
 [params.testimonials]
-    enable = true
+    enable = false
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
@@ -182,11 +182,14 @@ paginate = 10
 [params.twitter]
     enable = true
     bg = false
+    pattern = true
+    title = "Twitter"
     feed_url = "https://twitter.com/user2018_conf"
 
 [params.sponsors]
     enable = true
     bg = true
+    pattern = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
@@ -212,7 +215,8 @@ paginate = 10
 
 [params.organising]
     enable = true
-    bg = false
+    bg = true
+    pattern=false
     # Possibility to center items
     center = true
     title = "Team"
@@ -294,12 +298,13 @@ paginate = 10
 
 [params.programming]
     enable = true
-    bg = false
+    bg = true
+    pattern = false
     # Possibility to center items
     center = true
-    title = ""
+    # title = ""
     subtitle = "Programming Comitee"
-    description = ""
+    description = "Program the thing"
 
     # All programming member's pictures are stored under 'static/img/programming'.
     # Replace them with your own too.
@@ -377,13 +382,14 @@ paginate = 10
 [params.foundation]
     enable = true
     bg = true
+    pattern = false
     # Possibility to center items
     center = true
-    title = ""
+    # title = "Team"
     subtitle = "R Foundation"
-    description = ""
+    description = "Foundation members"
 
-    # All programming member's pictures are stored under 'static/img/programming'.
+    # All foundation member's pictures are stored under 'static/img/foundation'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.foundation.members]]
@@ -458,6 +464,7 @@ paginate = 10
 
 [params.dates]
     enable = true
-    bg = false
-    title = "Title"
-    subtitle="Sub"
+    bg = true
+    pattern = false
+    title = "Imporant Dates"
+    # subtitle="Don't forget these!"
