@@ -182,14 +182,18 @@ paginate = 10
 [params.twitter]
     enable = true
     bg = false
-    pattern = true
+    pattern = false
+    photo1 = true
+    photo2 = false
     title = "Twitter"
     feed_url = "https://twitter.com/user2018_conf"
 
 [params.sponsors]
     enable = true
-    bg = true
-    pattern = false
+    bg = false
+    pattern = true
+    photo1 = false
+    photo2 = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
@@ -216,7 +220,9 @@ paginate = 10
 [params.organising]
     enable = true
     bg = true
-    pattern=false
+    pattern= false
+    photo1 = false
+    photo2 = false
     # Possibility to center items
     center = true
     title = "Team"
@@ -300,6 +306,8 @@ paginate = 10
     enable = true
     bg = true
     pattern = false
+    photo1 = false
+    photo2 = false
     # Possibility to center items
     center = true
     # title = ""
@@ -383,6 +391,8 @@ paginate = 10
     enable = true
     bg = true
     pattern = false
+    photo1 = false
+    photo2 = false
     # Possibility to center items
     center = true
     # title = "Team"
@@ -466,5 +476,7 @@ paginate = 10
     enable = true
     bg = true
     pattern = false
+    photo1 = false
+    photo2 = false
     title = "Imporant Dates"
     # subtitle="Don't forget these!"
