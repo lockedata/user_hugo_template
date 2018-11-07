@@ -191,7 +191,7 @@ paginate = 10
 
 [params.sponsors]
     enable = true
-    bg = true
+    bg = false
     pattern = true
     photo1 = false
     photo2 = false
