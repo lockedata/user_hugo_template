@@ -109,9 +109,10 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "your@email.com"
 
-    about_us = """
-    @twitter_handle // #conference_tag
-    See something wrong? Submit a PR on GitHub
+    about_us = """<p><strong>
+    @twitter_handle // #conference_tag</strong>
+    <br>See something wrong? Submit a PR on GitHub
+    </p>
     """
     copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
 
@@ -190,7 +191,7 @@ paginate = 10
 
 [params.sponsors]
     enable = true
-    bg = false
+    bg = true
     pattern = true
     photo1 = false
     photo2 = false
