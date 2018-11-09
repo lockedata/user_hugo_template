@@ -159,7 +159,7 @@ paginate = 10
     # For more informtion take a look at the README.
 
 [params.features]
-    enable = true
+    enable = false
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
@@ -481,3 +481,13 @@ paginate = 10
     photo2 = false
     title = "Imporant Dates"
     # subtitle="Don't forget these!"
+
+[params.about]
+    enable = true
+    bg = true
+    pattern = false
+    photo1 = false
+    photo2 = false
+    title = "Conference Overview"
+    subtitle = "About the event"
+    text = "The conference is going to be super-great, awesome and rocking!! It _even_ **supports** [markdown](https://gohugo.io/content-management/formats/#learn-markdown)!!!"
