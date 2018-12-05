@@ -37,7 +37,7 @@ paginate = 10
     weight = 4
 
 [[menu.main]]
-   name = "Blog"
+   name = "News"
    url  = "/blog/"
    weight = 5
    
