@@ -42,9 +42,21 @@ paginate = 10
    weight = 5
    
 [[menu.main]]
-   name = "FAQ"
+   name = "faq"
    identifier = "faq"
-   url  = "/faq/"
+   url  = "faq"
+   weight = 6
+
+[[menu.main]]
+   name = "faq 1"
+   parent = "faq"
+   url  = "/faq/faq.1"
+   weight = 6
+
+[[menu.main]]
+   name = "faq 2"
+   parent = "faq"
+   url  = "/faq/faq.2"
    weight = 6
 
 [[menu.main]]
