@@ -479,7 +479,7 @@ paginate = 10
     pattern = false
     photo1 = false
     photo2 = false
-    title = "Imporant Dates"
+    title = "Important Dates"
     # subtitle="Don't forget these!"
 
 [params.about]
