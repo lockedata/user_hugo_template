@@ -201,9 +201,7 @@ paginate = 10
     title = "Our Sponsors"
     tier1 = "Gold"
     tier2 = "Silver"
-    tier2scale ="80%"
     tier3 = "Bronze"
-    tier3scale ="30%"
 
 [params.recent_posts]
     enable = true
@@ -382,91 +380,6 @@ paginate = 10
       img = "faceholder.png"
       name = "Programmer Name 6"
       position = "Programmer Position 6"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-[params.foundation]
-    enable = true
-    bg = true
-    pattern = false
-    photo1 = false
-    photo2 = false
-    # Possibility to center items
-    center = true
-    # title = "Team"
-    subtitle = "R Foundation"
-    description = "Foundation members"
-
-    # All foundation member's pictures are stored under 'static/img/foundation'.
-    # Replace them with your own too.
-    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.foundation.members]]
-      img = "faceholder.png"
-      name = "Foundation Name 1"
-      position = "Foundation Position 1"
-      reportsTo = "Some Person"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.foundation.members]]
-      img = "faceholder.png"
-      name = "Foundation Name 2"
-      position = "Foundation Position 2"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.foundation.members]]
-      img = "faceholder.png"
-      name = "Foundation Name 3"
-      position = "Foundation Position 3"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.foundation.members]]
-      img = "faceholder.png"
-      name = "Foundation Name 4"
-      position = "Foundation Position 4"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.foundation.members]]
-      img = "faceholder.png"
-      name = "Foundation Name 5"
-      position = "Foundation Position 5"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.foundation.members]]
-      img = "faceholder.png"
-      name = "Foundation Name 6"
-      position = "Foundation Position 6"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
