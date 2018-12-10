@@ -158,7 +158,6 @@ paginate = 10
     # the 'static/img' folder.
     title = "satRday [My City]"
     subtitle = "A conference for users of the R Language on [Conference Date]"
-    bg = true
     buttonText = "Tell me more"
 
 [params.carousel]
