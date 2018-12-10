@@ -37,7 +37,7 @@ paginate = 10
     weight = 4
 
 [[menu.main]]
-   name = "Blog"
+   name = "News"
    url  = "/blog/"
    weight = 5
    
@@ -83,7 +83,7 @@ paginate = 10
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
-    viewMorePostLink = "/blog/"
+    viewMorePostLink = "/news/"
     author = "DevCows"
     defaultKeywords = ["devows", "hugo", "go"]
     defaultDescription = "Site template made by devcows using hugo"
@@ -119,8 +119,8 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    logo = "img/userlogo-small.png"
+    logo_small = "img/userlogo-small.png"
     address = """<p><strong>Universal Ltd.</strong>
         <br>13/25 New Avenue
         <br>Newtown upon River
@@ -152,8 +152,17 @@ paginate = 10
     search = true
     contact_map = false
 
+# Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "satRday [My City]"
+    subtitle = "A conference for users of the R Language on [Conference Date]"
+    bg = true
+    buttonText = "Tell me more"
+
 [params.carousel]
-    enable = true
+    enable = false
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
@@ -201,9 +210,7 @@ paginate = 10
     title = "Our Sponsors"
     tier1 = "Gold"
     tier2 = "Silver"
-    tier2scale ="80%"
     tier3 = "Bronze"
-    tier3scale ="30%"
 
 [params.recent_posts]
     enable = true
@@ -382,91 +389,6 @@ paginate = 10
       img = "faceholder.png"
       name = "Programmer Name 6"
       position = "Programmer Position 6"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-[params.foundation]
-    enable = true
-    bg = true
-    pattern = false
-    photo1 = false
-    photo2 = false
-    # Possibility to center items
-    center = true
-    # title = "Team"
-    subtitle = "R Foundation"
-    description = "Foundation members"
-
-    # All foundation member's pictures are stored under 'static/img/foundation'.
-    # Replace them with your own too.
-    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.foundation.members]]
-      img = "faceholder.png"
-      name = "Foundation Name 1"
-      position = "Foundation Position 1"
-      reportsTo = "Some Person"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.foundation.members]]
-      img = "faceholder.png"
-      name = "Foundation Name 2"
-      position = "Foundation Position 2"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.foundation.members]]
-      img = "faceholder.png"
-      name = "Foundation Name 3"
-      position = "Foundation Position 3"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.foundation.members]]
-      img = "faceholder.png"
-      name = "Foundation Name 4"
-      position = "Foundation Position 4"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.foundation.members]]
-      img = "faceholder.png"
-      name = "Foundation Name 5"
-      position = "Foundation Position 5"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.foundation.members]]
-      img = "faceholder.png"
-      name = "Foundation Name 6"
-      position = "Foundation Position 6"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
