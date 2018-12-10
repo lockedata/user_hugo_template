@@ -152,8 +152,17 @@ paginate = 10
     search = true
     contact_map = false
 
+# Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "satRday [My City]"
+    subtitle = "A conference for users of the R Language on [Conference Date]"
+    bg = true
+    buttonText = "Tell me more"
+
 [params.carousel]
-    enable = true
+    enable = false
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
