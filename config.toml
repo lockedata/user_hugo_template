@@ -408,6 +408,5 @@ paginate = 10
     pattern = false
     photo1 = false
     photo2 = false
-    title = "Conference Overview"
-    subtitle = "About the event"
+    title = "About"
     text = "The conference is going to be super-great, awesome and rocking!! It _even_ **supports** [markdown](https://gohugo.io/content-management/formats/#learn-markdown)!!!"
