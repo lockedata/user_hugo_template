@@ -58,8 +58,21 @@ paginate = 10
   weight = 8
 
 [[menu.main]]
-  name = "About"
+  name = "about"
   url  = "/about/"
+  identifier = "about"
+  weight = 9
+
+[[menu.main]]
+  name = "about sponsors"
+  parent = "about"
+  url  = "/about/about.sponsors"
+  weight = 9
+
+[[menu.main]]
+  name = "about organisers"
+  parent = "about"
+  url  = "/about/about.organisers"
   weight = 9
 
 # Top bar social links menu
