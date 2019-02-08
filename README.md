@@ -26,7 +26,10 @@ I am a [Hugo](//gohugo.io) website, with two themes. [Universal](https://github.
 
 ## How to set me up
 
-### Set the repo as a mirror the main repository
+### Create a new repository
+1. Create a new repository on Github for the city & year the site will be for. E.g. https://github.com/[user]/[cityYEAR].git
+
+### Set the repo as a mirror of the main repository
 1. Open Git Bash.
 
 2. Create a bare clone of the repository.
@@ -48,6 +51,9 @@ git push --mirror https://github.com/[user]/[cityYEAR].git
 cd ..
 rm -rf user_hugo_template.git
 ```
+
+### Clone the new repository
+1. Now you've removed the temporary local repository, you need to clone the new repository you set up at https://github.com/[user]/[cityYEAR].git
 
 ### Customise the config
 The file [config.toml](https://github.com/lockedata/user_hugo_template/blob/master/config.toml) gives you access to a number of points on the site, mostly using [site params](https://gohugo.io/variables/site/#the-site-params-variable).
