@@ -100,3 +100,7 @@ In the hopefully rare event that even more specific material is needed you can e
   + write a new `myfile.html` from scratch and include it in the project `/layouts/partials`
 * then make sure that it is referenced in `index.html`
 
+### Deploy to Netlify
+1. Set up a "New site from Git" on Netlify using the new repository created in the previous steps
+2. Use the build command `hugo`
+3. Use the publish directory `public`
