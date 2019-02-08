@@ -55,6 +55,16 @@ rm -rf user_hugo_template.git
 ### Clone the new repository
 1. Now you've removed the temporary local repository, you need to clone the new repository you set up at https://github.com/[user]/[cityYEAR].git
 
+### Initialise the submodules
+If you want to run the site locally to view when you're making changes, you need to initialise the submodules
+1. Open Git Bash
+2. Navigate to the new repo
+3. Initialise and fetch the submodules
+```
+git submodule init
+git submodule update
+```
+
 ### Customise the config
 The file [config.toml](https://github.com/lockedata/user_hugo_template/blob/master/config.toml) gives you access to a number of points on the site, mostly using [site params](https://gohugo.io/variables/site/#the-site-params-variable).
 
