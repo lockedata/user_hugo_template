@@ -26,7 +26,10 @@ I am a [Hugo](//gohugo.io) website, with two themes. [Universal](https://github.
 
 ## How to set me up
 
-### Set the repo as a mirror the main repository
+### Create a new repository
+1. Create a new repository on Github for the city & year the site will be for. E.g. https://github.com/[user]/[cityYEAR].git
+
+### Set the repo as a mirror of the main repository
 1. Open Git Bash.
 
 2. Create a bare clone of the repository.
@@ -47,6 +50,19 @@ git push --mirror https://github.com/[user]/[cityYEAR].git
 ```
 cd ..
 rm -rf user_hugo_template.git
+```
+
+### Clone the new repository
+1. Now you've removed the temporary local repository, you need to clone the new repository you set up at https://github.com/[user]/[cityYEAR].git
+
+### Initialise the submodules
+If you want to run the site locally to view when you're making changes, you need to initialise the submodules
+1. Open Git Bash
+2. Navigate to the new repo
+3. Initialise and fetch the submodules
+```
+git submodule init
+git submodule update
 ```
 
 ### Customise the config
@@ -94,3 +110,7 @@ In the hopefully rare event that even more specific material is needed you can e
   + write a new `myfile.html` from scratch and include it in the project `/layouts/partials`
 * then make sure that it is referenced in `index.html`
 
+### Deploy to Netlify
+1. Set up a "New site from Git" on Netlify using the new repository created in the previous steps
+2. Use the build command `hugo`
+3. Use the publish directory `public`
