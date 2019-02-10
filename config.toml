@@ -196,6 +196,30 @@ paginate = 10
     title = "Twitter"
     feed_url = "https://twitter.com/user2018_conf"
 
+[params.contact]
+    # Since this template is static, the contact form uses Netlify to capture the 
+    # contact submission. The form makes a POST request to Netlify and you can set up 
+    # an email notification from Netlify. You can have up to 100 submissions a form a month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # You don't need to do anything for Netlify to capture the submissions.
+    # In Netlify, go to the "Forms" section and click the "Settings and usage" button.
+    # Scroll down to see the "Form Notifications" section, and in "Outgoing Notifications" click the 
+    # "Add notification" button and click the "Email notification" option.
+    # In the modal that pops up, add the official conference email address useRXXX@r-project.org.
+    # In the "Form" option, select "Any form". That should be all the setup required.
+    subject = [
+      "Sponsorship",
+      "Registration",
+      "Abstract Submission",
+      "Tutorials",
+      "Schedule",
+      "Facilities",
+      "Other"
+    ]
+    recaptcha = true
+
 [params.sponsors]
     enable = true
     bg = false
