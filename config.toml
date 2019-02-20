@@ -342,7 +342,7 @@ paginate = 10
     # Possibility to center items
     center = true
     # title = ""
-    subtitle = "Programming Comitee"
+    subtitle = "Program committee"
     description = "Program the thing"
 
     # All programming member's pictures are stored under 'static/img/programming'.
