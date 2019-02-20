@@ -157,6 +157,7 @@ paginate = 10
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "useR! YYYY<br/>The R User Conference<br/>Month DD-DD, YYYY<br/>City, Country"
+    showButton = false
     buttonText = "Tell me more"
 
 [params.carousel]
