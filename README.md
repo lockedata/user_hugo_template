@@ -7,7 +7,7 @@ I can give you most of a website for useR events, ready (almost) out of the box.
     + Overview/ About section supporting Markdown
     + Important Dates table
     + Twitter feed section
-    + Organising and Programming committee bios
+    + Organizing and Programming committee bios
     + Recent News section, supporting markdown blogging
     + Sponsors section
     + Social links in the footer

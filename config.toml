@@ -257,16 +257,16 @@ paginate = 10
     # Possibility to center items
     center = true
     title = "Team"
-    subtitle = "Organising Commitee"
-    description = "Local team organising the event"
+    subtitle = "Organizing Commitee"
+    description = "Local team organizing the event"
 
     # All organising member's pictures are stored under 'static/img/organising'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.organising.members]]
       img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
+      name = "Organizer Name 1"
+      position = "Organizer Position 1"
       reportsTo = "Some Person"
       livesIn = "[Munich, Germany](#some-maps-url)"
       scope = [
@@ -285,8 +285,8 @@ paginate = 10
 
     [[params.organising.members]]
       img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
+      name = "Organizer Name 2"
+      position = "Organizer Position 2"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
@@ -295,8 +295,8 @@ paginate = 10
 
     [[params.organising.members]]
       img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
+      name = "Organizer Name 3"
+      position = "Organizer Position 3"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
@@ -305,8 +305,8 @@ paginate = 10
     
     [[params.organising.members]]
       img = "faceholder.png"
-      name = "Organiser Name 4"
-      position = "Organiser Position 4"
+      name = "Organizer Name 4"
+      position = "Organizer Position 4"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
@@ -315,8 +315,8 @@ paginate = 10
 
     [[params.organising.members]]
       img = "faceholder.png"
-      name = "Organiser Name 5"
-      position = "Organiser Position 5"
+      name = "Organizer Name 5"
+      position = "Organizer Position 5"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
@@ -325,8 +325,8 @@ paginate = 10
 
     [[params.organising.members]]
       img = "faceholder.png"
-      name = "Organiser Name 6"
-      position = "Organiser Position 6"
+      name = "Organizer Name 6"
+      position = "Organizer Position 6"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
