@@ -280,7 +280,9 @@ paginate = 10
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"], # WWW
+        ["fa-id-card", "#"] # ORCID
       ]
 
     [[params.organising.members]]
@@ -290,7 +292,9 @@ paginate = 10
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"], # WWW
+        ["fa-id-card", "#"] # ORCID
       ]
 
     [[params.organising.members]]
@@ -300,7 +304,9 @@ paginate = 10
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"], # WWW
+        ["fa-id-card", "#"] # ORCID
       ]
     
     [[params.organising.members]]
@@ -310,7 +316,9 @@ paginate = 10
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"], # WWW
+        ["fa-id-card", "#"] # ORCID
       ]
 
     [[params.organising.members]]
@@ -320,7 +328,9 @@ paginate = 10
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"], # WWW
+        ["fa-id-card", "#"] # ORCID
       ]
 
     [[params.organising.members]]
@@ -330,7 +340,9 @@ paginate = 10
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"], # WWW
+        ["fa-id-card", "#"] # ORCID
       ]
 
 [params.programming]
@@ -365,7 +377,9 @@ paginate = 10
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"], # WWW
+        ["fa-id-card", "#"] # ORCID
       ]
 
     [[params.programming.members]]
@@ -375,7 +389,9 @@ paginate = 10
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"], # WWW
+        ["fa-id-card", "#"] # ORCID
       ]
 
     [[params.programming.members]]
@@ -385,7 +401,9 @@ paginate = 10
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"], # WWW
+        ["fa-id-card", "#"] # ORCID
       ]
 
     [[params.programming.members]]
@@ -395,7 +413,9 @@ paginate = 10
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"], # WWW
+        ["fa-id-card", "#"] # ORCID
       ]
 
     [[params.programming.members]]
@@ -405,7 +425,9 @@ paginate = 10
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"], # WWW
+        ["fa-id-card", "#"] # ORCID
       ]
 
     [[params.programming.members]]
@@ -415,7 +437,9 @@ paginate = 10
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"], # WWW
+        ["fa-id-card", "#"] # ORCID
       ]
 
 [params.dates]
