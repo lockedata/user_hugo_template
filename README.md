@@ -1,8 +1,8 @@
-# useR website
+# useR! website
 
 ## What I can do
 
-I can give you most of a website for useR events, ready (almost) out of the box. I have a number of sections to help you out:
+I can give you most of a website for useR! events, ready (almost) out of the box. I have a number of sections to help you out:
 * Title Page with:
     + Overview/ About section supporting Markdown
     + Important Dates table
@@ -24,46 +24,79 @@ I can give you most of a website for useR events, ready (almost) out of the box.
 ## What I am
 I am a [Hugo](//gohugo.io) website, with two themes. [Universal](https://github.com/devcows/hugo-universal-theme) provides the base layer of theming, with a custom [useR](https://github.com/lockedata/hugo-user-theme/) theme which overides some areas of Universal. The folder `themes/[theme]/layout/partials/` contain all the `.html` needed for the website pages, with the exception of the Markdown, which is saved in `/content/`.
 
-## How to set me up
+## How to set me up on GitLab
+
+This part will be done for you by a member of the RFCC.
 
 ### Create a new repository
-1. Create a new repository on Github for the city & year the site will be for. E.g. https://github.com/[user]/[cityYEAR].git
+
+1. Log on to the R-conferences GitLab.
+
+2. Create a new repository for the year the site will be for. E.g. https://gitlab.com/R-conferences/user[YEAR].git
 
 ### Set the repo as a mirror of the main repository
-1. Open Git Bash.
+
+1. In a terminal with access to git, navigate to a directory where you will clone the repository.
 
 2. Create a bare clone of the repository.
 
-  ```
-  git clone --bare https://github.com/lockedata/user_hugo_template
-  ```
+    ```
+    git clone --bare https://github.com/lockedata/user_hugo_template
+    ```
 
 3. Mirror-push to the new repository.
-
-```
-cd user_hugo_template.git
-git push --mirror https://github.com/[user]/[cityYEAR].git
-```
+    
+    ```
+    cd user_hugo_template.git
+    git push --mirror https://gitlab.com/R-conferences/user[YEAR].git
+    ```
+    Note, if you get the error 
+    
+    ```
+    remote: HTTP Basic: Access denied
+    ```
+    
+    you may need to run the following command first
+    
+    ```
+    git config --system --unset credential.helper
+    ```
+    
+    (if using the Windows command prompt you will need to be running as Administrator).
 
 4. Remove the temporary local repository you created in step 1.
 
-```
-cd ..
-rm -rf user_hugo_template.git
-```
+    ```
+    cd ..
+    rm -rf user_hugo_template.git
+    ```
+    
+### Deploy to Netlify
+
+1. Login to Netlify via R-conferences GitLab account.
+2. Click "New site from Git".
+3. Select GitLab as the git provider.
+4. Select the repository created in the previous steps.
+5. Use the build command `hugo`.
+6. Use the publish directory `public`    .
+
+## How to set me up locally
+
+This part should be done by anyone maintaining the website.
 
 ### Clone the new repository
-1. Now you've removed the temporary local repository, you need to clone the new repository you set up at https://github.com/[user]/[cityYEAR].git
+
+1. Clone the new repository set up at https://gitlab.com/R-conferences/user[YEAR].git.
 
 ### Initialise the submodules
 If you want to run the site locally to view when you're making changes, you need to initialise the submodules
-1. Open Git Bash
-2. Navigate to the new repo
-3. Initialise and fetch the submodules
-```
-git submodule init
-git submodule update
-```
+1. Open a terminal with access to git.
+2. Navigate to the new repo.
+3. Initialise and fetch the submodules.
+    ```
+    git submodule init
+    git submodule update
+    ```
 
 ### Customise the config
 The file [config.toml](https://github.com/lockedata/user_hugo_template/blob/master/config.toml) gives you access to a number of points on the site, mostly using [site params](https://gohugo.io/variables/site/#the-site-params-variable).
@@ -110,7 +143,6 @@ In the hopefully rare event that even more specific material is needed you can e
   + write a new `myfile.html` from scratch and include it in the project `/layouts/partials`
 * then make sure that it is referenced in `index.html`
 
-### Deploy to Netlify
-1. Set up a "New site from Git" on Netlify using the new repository created in the previous steps
-2. Use the build command `hugo`
-3. Use the publish directory `public`
+### Deployment
+
+The website created for you by the RFCC will be automatically updated when you push your changes to the master branch.
