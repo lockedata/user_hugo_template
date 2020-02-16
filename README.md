@@ -3,6 +3,7 @@
 ## What I can do
 
 I can give you most of a website for useR! events, ready (almost) out of the box. I have a number of sections to help you out:
+
 * Title Page with:
     + Overview/ About section supporting Markdown
     + Important Dates table
@@ -89,7 +90,9 @@ This part should be done by anyone maintaining the website.
 1. Clone the new repository set up at https://gitlab.com/R-conferences/user[YEAR].git.
 
 ### Initialise the submodules
+
 If you want to run the site locally to view when you're making changes, you need to initialise the submodules
+
 1. Open a terminal with access to git.
 2. Navigate to the new repo.
 3. Initialise and fetch the submodules.
@@ -99,9 +102,11 @@ If you want to run the site locally to view when you're making changes, you need
     ```
 
 ### Customise the config
+
 The file [config.toml](https://github.com/lockedata/user_hugo_template/blob/master/config.toml) gives you access to a number of points on the site, mostly using [site params](https://gohugo.io/variables/site/#the-site-params-variable).
 
 A high level overview of these features:
+
 * `enable` 
     + boolean to render or hide that section
 * `title`/`subtitle`/`description`/`button text`/...
@@ -131,13 +136,16 @@ Is sourced from a csv stored in `/csv`.
 Markdown files are located in `/content`. The News/blog is driven from `/content/blog`, and the other pages in the navbar are driven from the files in `/content/`. An example of how subpages could be constructed is [located in this commit](https://github.com/lockedata/user_hugo_template/commit/211168db3cb975292fd1b8e399669b4c3b24cce0) where the shared 'parent' of 2 `content.md` are specified in the config.
 
 ## What if I need even more customistation?
+
 In the hopefully rare event that even more specific material is needed you can explore the following. Make use of the [hugo inheritance method](https://gohugo.io/templates/lookup-order/#hugo-layouts-lookup-rules-with-theme) to override defaults where applicable, rather than modify the defaults in place.
 
 ### CSS/style
+
 * Copy the base `hugo-user-theme/static/css/styledefault.css` into `/static/css/style.css` in your root
   + This will now be the style sheet for your website, overriding the themes
   
 ### New Section/Custom Section
+
 * Either 
   + find a [partial](https://gohugo.io/templates/partials/) from `/layouts/partials` in the existing themes you want to base your work on, copy it to the project `/layouts/partials`, and modify the copy
   + write a new `myfile.html` from scratch and include it in the project `/layouts/partials`
